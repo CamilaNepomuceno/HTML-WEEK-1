@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.container{
+	width: 85%;
+	margin: auto;
+}
+
+body{
+	background-color: antiquewhite;
+	margin: 0px;
+	font-family: 'Quicksand', monospace,serif;
+}
+
+footer{
+	background-color: dimgrey;
+	padding: 2px;
+	border-bottom : 3px solid pink; 
+	border-top : 4px solid pink; 
+	border-right: 3px solid pink;
+	border-left: 5px solid pink;
+}
+
+h1{
+	text-align: center;	
+	background-color: dimgrey;
+	padding: 3px;
+	margin-top: auto;
+	color: pink;
+	border-bottom : 3px solid pink; 
+	border-top : 3px solid pink; 
+	border-right: 3px solid pink;
+	border-left: 3px solid pink;	
+}
+
+h3{
+	margin-left: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+table{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th{
+	background: green;
+	padding: 5px;
+}
+
+td{
+	background: yellow;
+	padding: 5px;
+}
+
+#menu1 {
+	list-style: none;
+	text-align: right;
+	margin: 0px;
+	padding: 20px;
+	overflow: hidden;
+	background-color: gray;
+}
+
+#menu1 li{
+	display: inline;
+	padding: 20px;
+}
+
+#menu1 a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: pink;
+	text-shadow: white;
+	}
+
+a li:hover{
+	background-color: pink;
+	color: aliceblue;
+}
+
+a li:active{
+	color: indianred;
+	background-color: azure;
+}
+
+.clear {
+	clear: both;
+}
+
+#formdiv{
+	width: 75%;
+	float: left;
+}
+
+.myform{
+	padding: 20px;
+}
+
+.myform label {
+	display: block;
+}
+
+.myform input[type="text"], .myform input[type="email"], .myform input[type="number"], .myform textarea{
+	padding: 5px;
+	width: 90%
+}
+
+.button{
+	background-color: dimgrey;
+	color: pink;
+	padding: 6px 12px;
+	
+}
+
+.myList li:first-child{
+	background-color: grey;
+}
+
+.myList li:last-child{
+	background-color: grey;
+}
+
+.myList li:nth-child(5){
+	background-color: grey;
+}
+
+.myList li:nth-child(odd){
+	background-color: lightpink;
+}
+
+
+
+
+
+
+
+	
