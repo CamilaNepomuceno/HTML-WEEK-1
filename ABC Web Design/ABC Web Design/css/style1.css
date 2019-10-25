@@ -1,0 +1,248 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	padding-top: 20px;
+	background-color: grey;
+	color: #ffffff;
+	min-height: 70px;
+	border-bottom: #EA540D 3px solid;
+}
+
+#menu1{
+	color: orangered;
+}
+
+#menu2{
+	padding-top: 10px;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+header li{
+	float left;
+	display: inline;
+	padding: 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header nav{
+	float: right;
+}
+
+header #branding h1{
+	margin: 0px;
+}
+
+#showcase{
+	background: url("../img/spacee-2060x1288.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+	color: #EA540D;
+	text-align: center;
+}
+
+#showcase h1{
+	margin-top: 0px;
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+#showcase p{
+	font-size: 1.2rem;
+}
+
+#newsletter{
+	background-color: grey;
+	padding: 15px;
+	color: #ffffff;
+	min-height: 50px;
+}
+
+#newsletter h1{
+	float: left;
+	margin: 10px;
+}
+
+#newsletter form {
+	float: right;
+	margin-top: 5px;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 200px;
+}
+
+.btn1{
+	height: 38px;
+	background-color: #EA540D;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: aliceblue;
+}
+#boxes{
+	margin-top: 20px;
+}
+.box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#about2{
+	float: left;
+	width: 70%;
+}
+
+#about3{
+	margin-top: 20px;
+	float: left;
+	width: 30%;
+	background-color: dimgrey;
+	color: white;
+	font-size: 0.9rem;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+footer{
+	background-color: orangered;
+	font-size: 0.9em;
+	color: white;
+	padding: 2px;
+}
+
+#services2{
+	padding-left: 20px;
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+}
+
+#contact{
+	float: left;
+	width: 30%;
+	display: inline;
+	background-color: dimgrey;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.current a{
+	font-weight: bold;
+	color: orangered;
+}
+#contact label {
+	display: block;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea{
+	padding: 5px;
+	width: 90%
+}
+
+.box2{
+	width: 95%;
+	background-color: darkgrey;
+/*
+	padding-left: 15px;
+	padding-right: 15px;
+*/
+	padding: 14px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+			
+.clear {
+	clear: both;
+}
+
+#formdiv{
+	width: 75%;
+	float: left;
+}
+
+.myform{
+	padding: 20px;
+}
+
+.myform label {
+	display: block;
+}
+
+.myform input[type="text"], .myform input[type="email"], .myform input[type="number"], .myform textarea{
+	padding: 5px;
+	width: 90%
+}
+
+address{
+	display: block;
+	color: dimgrey;
+	border: 2px solid black;
+	padding: 10px;
+}
+#addressdiv{
+	width: 20%;
+	float: left;
+	margin-top: 40px;
+	padding-right: 100px;
+}
+
+.container2{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	float: left;
+	padding-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

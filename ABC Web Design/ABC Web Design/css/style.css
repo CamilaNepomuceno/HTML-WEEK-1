@@ -1,0 +1,66 @@
+.container{
+	width: 85%;
+	margin: auto;
+}
+
+#mainMenu {
+	padding: 5px;
+	overflow: hidden;
+	background-color: dimgrey;
+	color: white;
+	border-bottom : 3px solid orangered; 
+}
+
+#menu1{
+	float: left;
+}
+
+#menuHighlight{
+	color: orangered;
+}
+
+#menu2{
+	float: right;
+	margin-top: 20px;
+}
+
+#menu2 li{
+	display: inline;
+	padding: 20px;
+	color: white;
+	font-size: 0.7em;
+}
+
+.btn1{
+	padding: 0.5rem;
+	text-decoration: none;
+	transition: background 1000ms ease;
+	font-weight: bold;
+}
+
+.btn1:hover{
+	color: orangered;
+}
+
+#menu2 a{
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+
+#middleSection{
+	background-color: grey;
+	font-size: 0.8em;
+	color: white;
+	padding: 1px;
+} 
+
+#submit{
+	float: left;
+}
+
+footer{
+	background-color: orangered;
+	font-size: 0.7em;
+	color: white;
+	padding: 2px;
+} 
